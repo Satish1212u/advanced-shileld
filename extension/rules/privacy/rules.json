@@ -1,0 +1,250 @@
+[
+  {
+    "id": 2000,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||google-analytics.com^",
+      "domainType": "thirdParty",
+      "isUrlFilterCaseSensitive": false
+    }
+  },
+  {
+    "id": 2001,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||analytics.google.com^",
+      "domainType": "thirdParty",
+      "isUrlFilterCaseSensitive": false
+    }
+  },
+  {
+    "id": 2002,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||googletagmanager.com/gtm.js",
+      "resourceTypes": [
+        "script"
+      ],
+      "isUrlFilterCaseSensitive": false
+    }
+  },
+  {
+    "id": 2003,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||facebook.net/*/fbevents.js",
+      "resourceTypes": [
+        "script"
+      ],
+      "isUrlFilterCaseSensitive": false
+    }
+  },
+  {
+    "id": 2004,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||connect.facebook.net/*/sdk.js",
+      "resourceTypes": [
+        "script"
+      ],
+      "isUrlFilterCaseSensitive": false
+    }
+  },
+  {
+    "id": 2005,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||hotjar.com^",
+      "domainType": "thirdParty",
+      "isUrlFilterCaseSensitive": false
+    }
+  },
+  {
+    "id": 2006,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||segment.io^",
+      "domainType": "thirdParty",
+      "isUrlFilterCaseSensitive": false
+    }
+  },
+  {
+    "id": 2007,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||segment.com^",
+      "domainType": "thirdParty",
+      "isUrlFilterCaseSensitive": false
+    }
+  },
+  {
+    "id": 2008,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||mixpanel.com^",
+      "domainType": "thirdParty",
+      "isUrlFilterCaseSensitive": false
+    }
+  },
+  {
+    "id": 2009,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||scorecardresearch.com^",
+      "domainType": "thirdParty",
+      "isUrlFilterCaseSensitive": false
+    }
+  },
+  {
+    "id": 2010,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||mc.yandex.ru^",
+      "domainType": "thirdParty",
+      "isUrlFilterCaseSensitive": false
+    }
+  },
+  {
+    "id": 2011,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||clarity.ms^",
+      "domainType": "thirdParty",
+      "isUrlFilterCaseSensitive": false
+    }
+  },
+  {
+    "id": 2012,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||amplitude.com^",
+      "domainType": "thirdParty",
+      "isUrlFilterCaseSensitive": false
+    }
+  },
+  {
+    "id": 2013,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||crazyegg.com^",
+      "domainType": "thirdParty",
+      "isUrlFilterCaseSensitive": false
+    }
+  },
+  {
+    "id": 2014,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||newrelic.com/nr-*.js",
+      "resourceTypes": [
+        "script"
+      ],
+      "isUrlFilterCaseSensitive": false
+    }
+  },
+  {
+    "id": 2015,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||quantserve.com^",
+      "domainType": "thirdParty",
+      "isUrlFilterCaseSensitive": false
+    }
+  },
+  {
+    "id": 2016,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||mouseflow.com^",
+      "domainType": "thirdParty",
+      "isUrlFilterCaseSensitive": false
+    }
+  },
+  {
+    "id": 2017,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||fullstory.com^",
+      "domainType": "thirdParty",
+      "isUrlFilterCaseSensitive": false
+    }
+  },
+  {
+    "id": 2018,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||inspectlet.com^",
+      "domainType": "thirdParty",
+      "isUrlFilterCaseSensitive": false
+    }
+  },
+  {
+    "id": 2019,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||optimizely.com^",
+      "domainType": "thirdParty",
+      "isUrlFilterCaseSensitive": false
+    }
+  }
+]

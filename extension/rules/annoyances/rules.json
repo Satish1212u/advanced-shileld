@@ -1,0 +1,112 @@
+[
+  {
+    "id": 3000,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||onesignal.com^",
+      "domainType": "thirdParty",
+      "isUrlFilterCaseSensitive": false
+    }
+  },
+  {
+    "id": 3001,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||pushwoosh.com^",
+      "domainType": "thirdParty",
+      "isUrlFilterCaseSensitive": false
+    }
+  },
+  {
+    "id": 3002,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||pushcrew.com^",
+      "domainType": "thirdParty",
+      "isUrlFilterCaseSensitive": false
+    }
+  },
+  {
+    "id": 3003,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||pushengage.com^",
+      "domainType": "thirdParty",
+      "isUrlFilterCaseSensitive": false
+    }
+  },
+  {
+    "id": 3004,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||subscribers.com^",
+      "domainType": "thirdParty",
+      "isUrlFilterCaseSensitive": false
+    }
+  },
+  {
+    "id": 3005,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||wonderpush.com^",
+      "domainType": "thirdParty",
+      "isUrlFilterCaseSensitive": false
+    }
+  },
+  {
+    "id": 3006,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||izooto.com^",
+      "domainType": "thirdParty",
+      "isUrlFilterCaseSensitive": false
+    }
+  },
+  {
+    "id": 3007,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||braze.com^",
+      "domainType": "thirdParty",
+      "isUrlFilterCaseSensitive": false
+    }
+  },
+  {
+    "id": 3008,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||intercom.io/widget",
+      "resourceTypes": [
+        "script"
+      ],
+      "isUrlFilterCaseSensitive": false
+    }
+  }
+]

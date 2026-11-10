@@ -1,0 +1,95 @@
+{
+  "manifest_version": 3,
+  "name": "Advanced AdBlocker & Privacy Shield",
+  "version": "1.0.0",
+  "description": "High-performance ad blocker, privacy shield, and cosmetic filter for Chromium with YouTube protection and safe failure.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": [
+    "declarativeNetRequest",
+    "storage",
+    "alarms",
+    "activeTab",
+    "tabs",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background/service-worker.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content/content.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],
+  "action": {
+    "default_title": "Advanced AdBlocker",
+    "default_popup": "popup/index.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "options_ui": {
+    "page": "options/index.html",
+    "open_in_tab": true
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  },
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "rules_ads",
+        "enabled": true,
+        "path": "rules/ads/rules.json"
+      },
+      {
+        "id": "rules_privacy",
+        "enabled": true,
+        "path": "rules/privacy/rules.json"
+      },
+      {
+        "id": "rules_annoyances",
+        "enabled": true,
+        "path": "rules/annoyances/rules.json"
+      },
+      {
+        "id": "rules_malware",
+        "enabled": true,
+        "path": "rules/malware/rules.json"
+      },
+      {
+        "id": "rules_youtube",
+        "enabled": true,
+        "path": "rules/youtube/rules.json"
+      }
+    ]
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "icons/*.png",
+        "blocked/index.html"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
+}
+
